@@ -1,3 +1,26 @@
+// Switch statement example 1 -->
+
+#include<stdio.h>
+int main() {
+    int x = 18;
+    switch(x) {
+        case 5:
+        printf("Hello");
+        break;
+
+        case 18:
+        printf("Hii");
+        break;
+
+        default:
+        printf("Wrong Input");
+    }
+    return 0;
+
+}                               // Output --> Hii
+
+// Switch statement ex -->2
+
 #include<stdio.h>
 int main() {
     int age;
@@ -22,13 +45,3 @@ int main() {
     }
     return 0;
 }
-    
-   
-    
-   
-    
-    
-
-
-
-   
